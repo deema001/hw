@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <link rel="stylesheet" href="cars.css">
+</head>
+<h1>Cars</h1>
+<table>
+    <tr>
+        <th>cars name</th>
+        <th>car imag</th>
+        <th>car price</th>
+        <th>car website</th>
+    </tr>
+    <tr>
+        <td>Audi</td>
+        <td><img src="https://i.pinimg.com/474x/99/dc/6b/99dc6b21e0ea8a260d9461578af011bc.jpg" alt=""></td>
+        <td>20000</td>
+       <td> <a href="audi.html">Audi</a></td>
+    </tr>
+       <tr>
+        <td>Mercedes</td>
+        <td><img src="https://i.pinimg.com/474x/6f/4b/2e/6f4b2e0d5e686801f107213a4ce0a90c.jpg" alt=""></td>
+        <td>40000</td>
+       <td><a href="mercedes.html">Mercedes</a></td>
+    </tr>
+    <tr>
+        <td>BMW</td>
+        <td><img src="https://i.pinimg.com/474x/18/5e/ce/185ecef768d84854d8b116f62b6c6383.jpg" alt=""></td>
+    <td>30000</td>
+       <td> <a href="bmw.html">BMW</a></td>
+    </tr>
+</table>
+
+<fieldset>
+    <legend>Enter your data</legend>
+    <form>
+       <form id="Form">
+        <label for="name">Name</label> <span class="required">*</span>
+        <input type="name" name="Name" id="name" required> <br>
+        <label for="email">Email</label> <span class="required">*</span>
+        <input type="email" name="email" id="email" required> <br>
+        <label for="password">Password</label> <span class="required">*</span>
+        <input type="password" name="password" id="password" required> <br>
+        <label for="date"></label>
+        <input type="date" name="date" id="date" onclick="focusField(this)"> <br>
+        <button type="submit">submit</button>
+       </form>
+</form>
+</fieldset>
+</table>
+<body>
+    
+</body>
+</html>
